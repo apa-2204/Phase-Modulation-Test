@@ -1,3 +1,4 @@
+```
 # Phase Modulation (PM) Project in Google Colab
 
 # STEP 1: Upload .wav file
@@ -50,3 +51,4 @@ demodulated = demodulated / np.max(np.abs(demodulated))
 # STEP 6: Save recovered audio
 sf.write('recovered_pm.wav', demodulated, fs)
 files.download('recovered_pm.wav')
+```
